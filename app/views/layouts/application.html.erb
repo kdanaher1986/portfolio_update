@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <script type="application.js"></script>
+    <title>PortfolioTest1</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <!-- <div id="logo"><h3>Logo</h3></div> -->
+
+      <div id="links">
+        <ul>
+          <li><button onClick=" " class="contact">
+            <%= link_to 'Gallery', gallery_path %></button> </li>
+
+          <li><button onClick=" " class="contact">
+            <%= link_to 'Home', root_path %></button> </li>
+            <script type="text/javascript">
+            console.log("Hello there")
+            $('.contact').hide(button)
+          </script>
+
+          
+
+        </ul>
+      </div>
+    </div>
+    <%= yield %>
+
+    <div class="footer">
+      <div class=contact-info>
+        <p>Katherine Danaher</p>
+        <p>(757) 546-4069</p>
+        <p>kdanaher1986@gmail.com</p>
+      </div>
+      <div class="social">
+         <div class="column-center"><a href="https://www.pinterest.com/kvdanaher17/"><i class="fa fa-pinterest-square" style="font-size:48px;color:white"></i></a></div>
+         <div class="column-left"><a href="https://www.facebook.com/katherine.danaher.9"><i class="fa fa-facebook-square" style="font-size:48px;color:white"></i></a></div>
+         <div class="column-right"><a href="https://www.instagram.com/kdanaher1986/"><i class="fa fa-instagram" style="font-size:48px;color:white"></i></a></div>
+
+      </div>
+    </div>
+  </body>
+</html>

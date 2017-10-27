@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+	<title>Katherine Danahers Page</title>
+</head>
+
+<body>
+	<div class="header">
+		
+	</div>
+
+	<div class="inbetween"></div>
+
+	<div class="first-sec">
+		<div class="about">
+			<h2>about me</h2>
+
+			<br>
+			<br>
+			<br>
+		
+			<p>Graphic Designer to Front End Developer, I have always been interested in the art field but in the digital platform.</p>
+
+
+		</div>
+
+		
+
+		<div class="pic">
+		<%= image_tag src= "portfolio_pic.jpg" %>
+
+		</div>
+	</div>
+
+	<div class="filler"></div>
+
+	<div class="second-sec">
+
+
+
+		<div class="gallery">
+		<h2>about my work</h2>
+		<br>
+		<br>
+			<div class="work"><%= link_to image_tag("base_site_portfolio.png", :border=>0), :action => 'gallery2'%>
+			<%= link_to image_tag("dominion_ten_sign.png", :border=>0), :action => 'gallery3'%>
+			<%= link_to image_tag("NL_Gesic.png", :border=>0), :action => 'gallery1'%>
+			<%= link_to image_tag("scooltor_bottle.png", :border=>0), :action => 'gallery4'%></div>
+		</div>
+				
+
+
+  	</div>
+
+</body>
+
+
+</html>

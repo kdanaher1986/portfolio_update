@@ -1,0 +1,84 @@
+/*!
+ * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+ */
+
+/*body {
+  padding-top: 54px;
+}*/
+
+/*@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+*/
+
+h2 {
+	font-size: 100px;
+	text-align: left;
+	position: left;
+	margin-top: 10px;
+	padding-top: 0px;
+	font-family: times;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.gallery-intro {
+	margin-top: 200px;
+	margin-left: 20px;
+}
+.col-md-8 {
+    padding: 20px;
+    margin-top: 8%;
+    width: 75%;
+    height: auto;
+}
+
+.row {
+	display: inline-flex;
+	width: auto;
+}
+
+.col-md-4{
+	width: 25%;
+}
+
+.col-md-3 .col-sm-6 .mb-4 {
+	width: 100%;
+	height: auto;
+
+}
+
+.img-fluid{
+	max-width: 100%;
+    height: auto;
+
+}
+
+img.img-fluid-1{
+	max-width: 100%;
+    height: auto;
+
+
+}
+
+div.col-md-3 .col-sm-6 .mb-4 .img-fluid-1{
+	/*width: 50%;*/
+	height: auto;
+	max-width: 100%;
+
+}
+
+
+
+

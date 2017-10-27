@@ -1,0 +1,162 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "bootstrap";
+ @font-face {
+ 	font-family: didot
+ }
+
+
+
+ body {
+	margin: 0px;
+}
+
+ .footer {
+ 	background-color: black;
+ 	width: 100%;
+ 	height: 200px; 
+ 	z-index: 10000;
+ 	position: absolute;
+ 	margin-top: auto;
+ }
+
+ h3 {
+ 	margin: 0px;
+ 	text-align: left;
+	padding: 45px;
+	color: white;
+
+ }
+
+ h4 {
+ 	margin: 0px;
+ 	text-align: center;
+ 	padding-top: 100px;
+ 	color: white;
+ }
+
+ h2 {
+	font-size: 100px;
+	text-align: left;
+	position: left;
+	margin-top: -90px;
+	padding-top: 0px;
+	font-family: times;
+    font-style: normal;
+    font-weight: bold;
+}
+
+ .navbar {
+ 	overflow: hidden;
+ 	display: flex;
+ 	margin-top: -20px;
+ 	position: fixed;
+ 	z-index: 9999;
+ 	width: 100%;
+ 	height: 100px;
+ 	border: solid black;
+ 	/*background-color: rgba(0, 0, 0, 0.5);*/
+ 	background-color: #000000;
+ }
+
+
+
+
+
+.social{
+  height: 100px;
+}
+
+.column-left {
+	margin-top: 50px;
+    position: absolute;
+    left: 10%;
+   
+
+}
+
+.column-center {
+	margin-top: 50px;
+    position: absolute;
+    left: 50%;
+
+}
+
+.column-right {
+	margin-top: 50px;
+    position: absolute;
+    right: 10%;
+}
+
+#logo{
+	width: 50%;
+}
+
+#links{
+
+	width: 100%;
+	text-align: center;
+}
+
+
+ li {
+ 	padding-top: 30px;
+ 	padding-right: 60px;
+ 	padding-left: 20px;
+ 	float: right;
+ 	list-style: none;
+
+ 	
+ }
+
+ button {
+ 	background-color: black;
+ 	border-color: white;
+ 	border-radius: 12px;
+ 	padding: 12px;
+ 	font-size: 20px;
+ 	color: white;
+ 	/*transform: scale(1.5);*/
+ }
+
+ button:hover{
+
+ 	background-color: white;
+ 	color: black;
+ }
+
+ a {
+ 	color: white;
+ 	text-decoration: none;
+ }
+
+ a:hover {
+ 	color: black;
+ 	text-decoration: none;
+ }
+
+ .contact-info{
+ 	font-size: 10px;
+ 	color: white;
+ 	margin-left: 25%;
+ 	margin-top: 10px;
+ 	text-align: center;
+ 	display: inline-flex;
+
+ }
+
+
