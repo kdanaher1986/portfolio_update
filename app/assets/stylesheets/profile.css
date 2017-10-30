@@ -62,7 +62,7 @@ p {
 }
 
 .logo-image {
-	background-attachment: url(logo-color.png);
+	background-attachment: url(assets/logo-color.png);
 	position: relative;
 	align-self: center;
 	size: 1000px;
