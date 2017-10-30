@@ -28,7 +28,7 @@
  	height: 200px; 
  	z-index: 10000;
  	position: absolute;
- 	margin-top: 75%;
+ 	margin-top: auto;
  }
 
  h3 {
@@ -60,7 +60,6 @@
  .navbar {
  	overflow: hidden;
  	display: flex;
- 	margin-top: -60px;
  	position: fixed;
  	z-index: 9999;
  	width: 100%;
